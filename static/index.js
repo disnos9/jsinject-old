@@ -13,9 +13,10 @@ inject_button.addEventListener("click", () => {
 
 })
 
-let inject_car_axle_client = document.getElementById("inject-car-axle-client");
+/* 3RD PARTY SCRIPTS */
+let 3rd-car-axle-client = document.getElementById("3rd-car-axle-client");
 
-inject_car_axle_client.addEventListener("click", () => {
+3rd-car-axle-client.addEventListener("click", () => {
     js_input.value = `fetch("https://raw.githubusercontent.com/car-axle-client/car-axle-client/main/dist/build.js")
                 .then((res) => res.text())
                 .then((js) => eval(js));`;
