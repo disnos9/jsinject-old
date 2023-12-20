@@ -57,11 +57,6 @@ code {
     display: block; /* Make the code block display as a block element */
     overflow-x: auto; /* Add horizontal scroll for long lines of code */
 }
-    .error-no-popup {
-      color: red;
-      display: none;
-        font-size: 12px;
-    }
     </style>
 </head>
 
@@ -76,8 +71,10 @@ code {
         <p>This injector is only recommended for experienced developers. <a href="#docs-injector">Learn more.</a></p>
         <input type="text" id="js" placeholder="JavaScript code">
         <button id="inject">Inject <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></button>
-        <br><div class="error-no-popup"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" width="12" height="12"><path d="M4.855.708c.5-.896 1.79-.896 2.29 0l4.675 8.351a1.312 1.312 0 0 1-1.146 1.954H1.33A1.313 1.313 0 0 1 .183 9.058ZM7 7V3H5v4Zm-1 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"></path></svg> Something went wrong. <a href="#docs-injector-troubleshoot">Troubleshooting</a></div>
+        <br><a href="#docs-injector-troubleshoot">Troubleshooting</a>
         <br><br><br>
+
+        <!-- 3rd Party Scripts -->
         <h3 id="scripts">Injection Scripts</h3>
         <p>These are pre-made scripts that you can use to inject various clients into an about:blank window.</p>
        <button id="3rd-car-axle-client">Inject Car Axle Client <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></button>
@@ -93,7 +90,7 @@ code {
         <br>Replace "The URL" with the .js. Usually, with GitHub, the URL should be something like https://raw.githubusercontent.com/us....file.js. If your file is like this, congratulations!</p>
 
             <h3 id="docs-injector-troubleshoot">Troubleshooting</h3>
-            <p>If you encountered an error while trying to run your script, here are some common problems and fixes:<br>
+            <p>If nothing appears when the about:blank window opens, or the window does not open, try these fixes:<br>
             <ol>
                 <li>Redirects/New windows not allowed by github.io or disnos9.github.io.</li>
                 <li>Your code is not formatted correctly. <a href="#docs-injector">Learn more about using Injector.</a></li>
