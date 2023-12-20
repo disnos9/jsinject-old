@@ -8,4 +8,4 @@ Go to [my GitHub injector page](https://disnos9.github.io/jsinject) and insert y
 - [Injector](https://github.com/Penguinify/javascript-injector)
 - [Car Axle Client](https://github.com/car-axle-client/car-axle-client)
 
-  <br><br>(c) 2023-2024 disnos9 and all related authors.
+<br><br>`(c) 2023-2024 disnos9 and all related authors.`
