@@ -17,7 +17,7 @@ inject_button.addEventListener("click", () => {
 let 3rd-car-axle-client = document.getElementById("3rd-car-axle-client");
 
 3rd-car-axle-client.addEventListener("click", () => {
-    js_input.value = `fetch("https://raw.githubusercontent.com/car-axle-client/car-axle-client/main/dist/build.js")
+    js_input.value = `fetch("https://raw.githubusercontent.com/car-axle-client/car-axle-client/main/dist/build.js")`
                 .then((res) => res.text())
                 .then((js) => eval(js));`;
 
