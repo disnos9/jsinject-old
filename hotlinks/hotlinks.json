@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Car Axle Client",
+    "id": "2439",
+    "js-file": "https://raw.githubusercontent.com/car-axle-client/car-axle-client/main/dist/build.js"
+  },
+  {
+    "name": "Internet",
+    "id": "1000",
+    "js-file": "https://disnos9.github.io/jsinject/scripts/internet/build.js"
+  },
+]
