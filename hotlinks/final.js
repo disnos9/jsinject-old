@@ -26,7 +26,7 @@ if (idParam) {
 
 // Function to launch the script
 function launchScript(jsFile) {
-    let win = window.open('about:blank');
+    let win = window.open('about:blank', '_blank', 'noopener,noreferrer');
     let script = win.document.createElement('script');
     
     // Fetch the JS file content and inject it
