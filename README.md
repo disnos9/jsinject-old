@@ -10,7 +10,7 @@ Go to [my GitHub injector page](https://disnos9.github.io/jsinject) and insert y
 <br>![image](https://github.com/disnos9/jsinject/assets/119540345/8f8b0ac8-91b8-422c-8002-20e5aca1a343)
 
 ## Injection Scripts
-- [Car Axle Client](https://github.com/car-axle-client/car-axle-client) - [Open with Hotlinks](https://disnos9.github.io/jsinject/?id=)
+- [Car Axle Client](https://github.com/car-axle-client/car-axle-client) - [Open with Hotlinks](https://disnos9.github.io/jsinject/?id=2439) - ID: 2439
 - [Internet](https://github.com/disnos9/jsinject/blob/main/scripts/internet/) - [Open with Hotlinks](https://disnos9.github.io/jsinject/?id=)
 ## Credits
 - [Injector](https://github.com/Penguinify/javascript-injector)
