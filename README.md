@@ -1,3 +1,12 @@
+## JSINJECT 2.0 COMING SOON
+Hello friends,
+
+JsInject 2.0 will be coming soon with even more sigma stuff and even more bypass preventions. This will be the most sigma thing you've ever seen. However, it'll be paid (skill issue to the skids)
+
+Have fun
+
+- Peretas
+
 # JSinject
 Inject javascript into an about:blank regardless of organization policies.
 
